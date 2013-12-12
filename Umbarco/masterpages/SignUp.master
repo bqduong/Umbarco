@@ -1,0 +1,3 @@
+﻿<form id="form1" runat="server">
+	<umbraco:Macro Alias="MemberRegister" runat="server"></umbraco:Macro>
+</form>
