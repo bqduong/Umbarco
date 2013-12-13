@@ -25,7 +25,7 @@ namespace Umbarco.Models
         {
             get
             {
-                var o = base.GetPropertyValue("auth_guid");
+                var o = base.GetPropertyValue("pAuthGuid");
                 if (o == DBNull.Value)
                 {
                     return string.Empty;
@@ -34,7 +34,7 @@ namespace Umbarco.Models
             }
             set
             {
-                base.SetPropertyValue("auth_guid", value);
+                base.SetPropertyValue("pAuthGuid", value);
             }
         }
 
@@ -43,7 +43,7 @@ namespace Umbarco.Models
         {
             get
             {
-                var o = base.GetPropertyValue("first_name");
+                var o = base.GetPropertyValue("pFirstName");
                 if (o == DBNull.Value)
                 {
                     return string.Empty;
@@ -52,7 +52,7 @@ namespace Umbarco.Models
             }
             set
             {
-                base.SetPropertyValue("first_name", value);
+                base.SetPropertyValue("pFirstName", value);
             }
         }
 
@@ -61,7 +61,7 @@ namespace Umbarco.Models
         {
             get
             {
-                var o = base.GetPropertyValue("last_name");
+                var o = base.GetPropertyValue("pLastName");
                 if (o == DBNull.Value)
                 {
                     return string.Empty;
@@ -70,7 +70,7 @@ namespace Umbarco.Models
             }
             set
             {
-                base.SetPropertyValue("last_name", value);
+                base.SetPropertyValue("pLastName", value);
             }
         }
 
@@ -79,7 +79,7 @@ namespace Umbarco.Models
         {
             get
             {
-                var o = base.GetPropertyValue("middle_name");
+                var o = base.GetPropertyValue("pMiddleName");
                 if (o == DBNull.Value)
                 {
                     return string.Empty;
@@ -88,7 +88,7 @@ namespace Umbarco.Models
             }
             set
             {
-                base.SetPropertyValue("middle_name", value);
+                base.SetPropertyValue("pMiddleName", value);
             }
         }
     }
